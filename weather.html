@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>🌡Weather-App</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Weather Application</h1>
+        <input type="text" class=" font" id="cityInput" placeholder="city: " oninvalid="alert('You must fill out the valid city!');" required>
+        <p></p>
+        <button class="font" id="weatherButton">Click here to see the weather.</button>
+        <p id="note"></p>
+        <p id="city"></p>
+        <p id="temp"></p>
+        <img id="icon" />
+        <p id="wind"></p>
+        <p id="cloud"></p>
+        <p id="sunrise"></p>
+        <p id="sunset"></p>
+        <div id="map"></div>
+        <p></p>
+        <button class="font" id="currentLoc">My Current Location</button>
+        <p id="displayCurrentLoc"></p>
+        <p id="currentTemp"></p>
+        <p id="currentWeather"></p>
+        <img id="icon2" />
+        <div id="mapC"></div>
+        <p></p>
+
+
+        <script src="weather.js"></script>
+    </div>
+</body>
+
+</html>
